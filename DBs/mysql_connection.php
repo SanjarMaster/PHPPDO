@@ -10,4 +10,4 @@ $options =[
 
 $connect_string="mysql:host=127.0.0.1;dbname=phppdo_test;charset=utf8";
 
-return new PDO($connect_string,'root','',$options);
+return new PDO($connect_string,'root','',$options); 
