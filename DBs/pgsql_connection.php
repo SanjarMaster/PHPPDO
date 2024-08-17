@@ -12,4 +12,4 @@ $options = [
 //$options = [];
 
 $dsn = "pgsql:host=127.0.0.1;port=5432;dbname=phppdo_test;options='--client_encoding=UTF8'";
-return  new PDO('pgsql:dbname=phppdo_test host=localhost', 'postgres', '123');
+return  new PDO($dsn, 'postgres', '123');
